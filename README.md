@@ -3,8 +3,9 @@
 学习arduino中做的一个小玩意儿，超声波测距并把数值显示在LCD上，如果没有接收到回波会提醒对准测量物体，同时加装了电位器调节LCD亮度，加了激光二极管来提供测量准星参考。
 演示视频：http://www.miaopai.com/show/NoF3dpFNb~0lFpof7BNxLNwL7cKdSJWl.htm
 ![image](https://github.com/laifeilim/sonicDIS/blob/master/%E5%9B%BE%E7%89%871.jpg) 
+
 代码：
-```
+```arduino
 #include <LiquidCrystal.h>// 包含lcd头文件
 const int TrigPin = 6; //定义超声波发生器的引脚为6
 const int EchoPin = 7; //定义超声波接收引脚为7
