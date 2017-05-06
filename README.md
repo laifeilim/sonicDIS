@@ -4,6 +4,7 @@
 演示视频：http://www.miaopai.com/show/NoF3dpFNb~0lFpof7BNxLNwL7cKdSJWl.htm
 ![image](https://github.com/laifeilim/sonicDIS/blob/master/%E5%9B%BE%E7%89%871.jpg) 
 代码：
+```
 #include <LiquidCrystal.h>// 包含lcd头文件
 const int TrigPin = 6; //定义超声波发生器的引脚为6
 const int EchoPin = 7; //定义超声波接收引脚为7
@@ -49,4 +50,5 @@ void loop() {
     digitalWrite(LaserPin, LOW); //激光器输出低电平
   }
 }
+```
 ![image](https://github.com/laifeilim/sonicDIS/blob/master/%E9%9D%A2%E5%8C%85%E7%89%88%E5%9B%BE.JPG) 
